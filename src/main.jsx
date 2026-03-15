@@ -9,6 +9,7 @@ import Apps from "./Components/Apps.jsx";
 import axios from "axios";
 import AppDetails from "./Components/AppDetails.jsx";
 import MyInstallation from "./Components/MyInstallation.jsx";
+import AppNotFound from "./Components/AppNotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/installed",
         Component: MyInstallation,
+      },
+      {
+        path: "*",
+        Component: AppNotFound,
       },
     ],
   },
