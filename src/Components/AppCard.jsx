@@ -1,10 +1,11 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
+import { Link } from "react-router";
 
 const AppCard = ({ app }) => {
-  const { image, title, downloads, ratingAvg } = app;
+  const { id, image, title, downloads, ratingAvg } = app;
   return (
-    <div className="bg-base-200 shadow-md p-4 rounded-box">
+    <Link to={`/apps/${id}`} className="bg-base-200 shadow-md p-4 rounded-box">
       <img
         className="rounded-box h-80 object-cover object-top w-full"
         src={image}
@@ -29,7 +30,7 @@ const AppCard = ({ app }) => {
           <p>{ratingAvg}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
