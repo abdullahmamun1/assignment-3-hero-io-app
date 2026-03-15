@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113",
+    "title": "VibeStream",
+    "companyName": "Sonic Wave LLC",
+    "description": "A high-fidelity music streaming service with AI-curated playlists and spatial audio support.",
+    "size": 45,
+    "reviews": 12500,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+    "title": "ZenSpace",
+    "companyName": "Mindful Apps",
+    "description": "Guided meditation and sleep sounds designed to reduce stress and improve mental clarity.",
+    "size": 32,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    "title": "CodeSprint",
+    "companyName": "DevTools Inc.",
+    "description": "Learn to code on the go with interactive lessons in Python, JavaScript, and Rust.",
+    "size": 58,
+    "reviews": 4200,
+    "ratingAvg": 4.3,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1700 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1685640206182-c51b8aa9b686?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "QuickCart",
+    "companyName": "RetailGo",
+    "description": "Get groceries delivered to your door in under 30 minutes with real-time tracking.",
+    "size": 28,
+    "reviews": 22000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "title": "DataViz Pro",
+    "companyName": "Metric Soft",
+    "description": "Transform complex spreadsheets into beautiful, interactive charts and dashboards.",
+    "size": 112,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "TeamSync",
+    "companyName": "Collab HQ",
+    "description": "All-in-one workspace for notes, tasks, and real-time team communication.",
+    "size": 75,
+    "reviews": 15600,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb",
+    "title": "FitTrack",
+    "companyName": "ActiveLife",
+    "description": "Personalized workout plans and macro tracking to help you reach your fitness goals.",
+    "size": 64,
+    "reviews": 31000,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec",
+    "title": "SkyWatch",
+    "companyName": "Aero Weather",
+    "description": "Hyper-local weather forecasts with interactive radar and storm alerts.",
+    "size": 41,
+    "reviews": 5400,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1471666875520-c75081f42081",
+    "title": "LensArt",
+    "companyName": "Creative Studio",
+    "description": "Pro-level photo editing with unique filters, AI retouching, and RAW support.",
+    "size": 130,
+    "reviews": 18200,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957",
+    "title": "CityRide",
+    "companyName": "Urban Mobility",
+    "description": "Affordable ride-sharing and bike rentals available in over 100 cities worldwide.",
+    "size": 38,
+    "reviews": 45000,
+    "ratingAvg": 4.0,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f",
+    "title": "SwiftPay",
+    "companyName": "Fintech Solutions",
+    "description": "Secure mobile payments and split-billing features for modern expenses.",
+    "size": 22,
+    "reviews": 6700,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff",
+    "title": "TrailBlazer",
+    "companyName": "Outdoor Navigator",
+    "description": "Offline maps and GPS tracking for hikers, climbers, and mountain bikers.",
+    "size": 150,
+    "reviews": 9800,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "title": "CryptoVault",
+    "companyName": "BlockSecure",
+    "description": "A secure hardware-integrated wallet for managing your digital assets and NFTs.",
+    "size": 42,
+    "reviews": 14200,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "title": "StudyBuddy AI",
+    "companyName": "EduTech Global",
+    "description": "An AI-powered tutor that helps you summarize textbooks and solve complex math equations.",
+    "size": 55,
+    "reviews": 21000,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 13000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
+    "title": "Chef’s Table",
+    "companyName": "Cuisine Lab",
+    "description": "Step-by-step video recipes from world-class chefs with automated grocery list generation.",
+    "size": 89,
+    "reviews": 12400,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+    "title": "GameZone Pro",
+    "companyName": "Nexus Gaming",
+    "description": "A dedicated hub for mobile gamers with performance boosting and screen recording features.",
+    "size": 120,
+    "reviews": 65000,
+    "ratingAvg": 4.2,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+    "title": "IronPulse",
+    "companyName": "GymRat Soft",
+    "description": "Advanced weightlifting tracker with 3D muscle heatmaps and progress charts.",
+    "size": 68,
+    "reviews": 5300,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e",
+    "title": "VistaWall",
+    "companyName": "Pixel Paradise",
+    "description": "Exclusive 4K wallpapers and live backgrounds updated daily by top photographers.",
+    "size": 15,
+    "reviews": 3200,
+    "ratingAvg": 4.1,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "title": "TaskFlow",
+    "companyName": "Productive Inc.",
+    "description": "A minimalist Pomodoro timer and task manager designed for deep work sessions.",
+    "size": 12,
+    "reviews": 8900,
+    "ratingAvg": 4.9,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1512418490979-92798cec1380",
+    "title": "LinguaLift",
+    "companyName": "Global Speak",
+    "description": "Master 30+ languages through bite-sized conversations and native-speaker audio.",
+    "size": 95,
+    "reviews": 47000,
+    "ratingAvg": 4.5,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  }
+]
