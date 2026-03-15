@@ -10,6 +10,7 @@ import axios from "axios";
 import AppDetails from "./Components/AppDetails.jsx";
 import MyInstallation from "./Components/MyInstallation.jsx";
 import AppNotFound from "./Components/AppNotFound.jsx";
+import PageNotFound from "./Components/PageNotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: "*",
-        Component: AppNotFound,
+        Component: PageNotFound,
       },
     ],
   },
