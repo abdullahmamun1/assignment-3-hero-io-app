@@ -30,7 +30,7 @@ const AppDetails = () => {
     .map((r) => ({ name: r.name, count: r.count }));
   console.log(singleApp);
   return (
-    <div className="min-h-screen my-17.5 md:my-35 px-5 lg:px-30">
+    <div className="min-h-screen my-17.5 lg:my-35 px-5 xl:px-30">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-5">
         <div>
           <img
@@ -52,7 +52,7 @@ const AppDetails = () => {
               </button>
             </div>
             <div className="flex justify-center items-center">
-              <div className="flex flex-col lg:flex-row lg:mt-10 justify-between items-center gap-15 w-full h-full rounded-box px-10 py-5 bg-base-200">
+              <div className="flex flex-col md:flex-row lg:mt-10 justify-between items-center gap-10 w-full h-full rounded-box px-10 py-5 bg-base-200">
                 <div className="flex flex-col items-center">
                   <img src={downloadIcon} className="mb-2" alt="" />
                   <div className="stat-title">Downloads</div>
