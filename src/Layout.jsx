@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Components/Shared/Header";
-import { Outlet } from "react-router";
+import { Outlet, useLocation } from "react-router";
 import Footer from "./Components/Shared/Footer";
 
 const Layout = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Header></Header>

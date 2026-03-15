@@ -3,7 +3,7 @@ import React from "react";
 import AppCard from "./AppCard";
 import { Link } from "react-router";
 
-const Trending = ({ apps }) => {
+const Trending = ({ apps = [] }) => {
   return (
     <div className="my-17.5 md:my-35">
       <h1 className="text-5xl font-semibold text-center text-primary mb-2">

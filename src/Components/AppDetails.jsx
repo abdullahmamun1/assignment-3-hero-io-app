@@ -14,8 +14,17 @@ import {
 
 const AppDetails = () => {
   const singleApp = useLoaderData();
-  const { id, image, title, description, companyName, size, ratings } =
-    singleApp;
+  const {
+    image,
+    title,
+    description,
+    downloads,
+    reviews,
+    companyName,
+    size,
+    ratingAvg,
+    ratings,
+  } = singleApp;
   const barData = ratings
     .toReversed()
     .map((r) => ({ name: r.name, count: r.count }));
@@ -46,20 +55,28 @@ const AppDetails = () => {
               <div className="flex flex-col lg:flex-row lg:mt-10 justify-between items-center gap-15 w-full h-full rounded-box px-10 py-5 bg-base-200">
                 <div className="flex flex-col items-center">
                   <img src={downloadIcon} className="mb-2" alt="" />
-                  <div className="stat-title">Total Downloads</div>
-                  <div className="stat-value">29.6M</div>
+                  <div className="stat-title">Downloads</div>
+                  <div className="stat-value">
+                    {new Intl.NumberFormat("en-us", {
+                      notation: "compact",
+                    }).format(downloads)}
+                  </div>
                 </div>
 
                 <div className="flex flex-col items-center ">
                   <img src={ratingIcon} className="mb-2" alt="" />
-                  <div className="stat-title">Total Reviews</div>
-                  <div className="stat-value">906K</div>
+                  <div className="stat-title">Average Ratings</div>
+                  <div className="stat-value">{ratingAvg}</div>
                 </div>
 
                 <div className=" flex flex-col items-center">
                   <img src={reviewIcon} className="mb-2" alt="" />
-                  <div className="stat-title">Active Apps</div>
-                  <div className="stat-value">132+</div>
+                  <div className="stat-title">Total Reviews</div>
+                  <div className="stat-value">
+                    {new Intl.NumberFormat("en-us", {
+                      notation: "compact",
+                    }).format(reviews)}
+                  </div>
                 </div>
               </div>
             </div>
