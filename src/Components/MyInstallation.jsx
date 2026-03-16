@@ -47,15 +47,17 @@ const MyInstallation = () => {
       <p className="text-secondary text-center mb-10">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="flex items-center justify-between py-5 px-10">
+      <div className="flex items-center justify-between py-5 px-5 md:px-10">
         <div>
-          <h4 className="text-xl font-semibold">Apps Found</h4>
+          <h4 className="text-lg font-semibold">
+            {sortedApps.length} Installed Apps
+          </h4>
         </div>
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn m-1">
-            {sortOrder === "asc"
+            {sortOrder === "desc"
               ? "High-Low"
-              : sortOrder === "desc"
+              : sortOrder === "asc"
                 ? "Low-High"
                 : "Sort By Downloads"}
             <span>
