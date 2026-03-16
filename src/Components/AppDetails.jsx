@@ -13,6 +13,7 @@ import {
 } from "recharts";
 import Swal from "sweetalert2";
 import { addInstalledApp, isInstalledApp } from "../localStorage";
+import AppNotFound from "./AppNotFound";
 
 const AppDetails = () => {
   const singleApp = useLoaderData();
@@ -45,6 +46,7 @@ const AppDetails = () => {
     .toReversed()
     .map((r) => ({ name: r.name, count: r.count }));
 
+  if (!singleApp) return <AppNotFound></AppNotFound>;
   return (
     <div className="min-h-screen my-17.5 lg:my-35 px-5 xl:px-30">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-5">

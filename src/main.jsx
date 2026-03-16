@@ -47,7 +47,7 @@ const router = createBrowserRouter([
           const singleApp = res.data.find(
             (app) => app.id === parseInt(params.id),
           );
-          return singleApp;
+          return singleApp ?? null;
         },
       },
       {

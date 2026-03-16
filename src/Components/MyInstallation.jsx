@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import { useLoaderData } from "react-router";
@@ -10,7 +10,6 @@ const MyInstallation = () => {
   const apps = useLoaderData();
   const [installedIDs, setInstalledIDs] = useState(getInstalledAppsID);
   const [sortOrder, setSortOrder] = useState(null);
-  const dropdownRef = useRef(null);
   const installedApps = apps.filter((app) => installedIDs.includes(app.id));
   const sortedApps = [...installedApps].sort((a, b) => {
     if (sortOrder === "asc") return a.downloads - b.downloads;
@@ -71,7 +70,7 @@ const MyInstallation = () => {
               <a
                 onClick={() => {
                   setSortOrder("desc");
-                  dropdownRef.current.blur();
+                  document.activeElement.blur();
                 }}
               >
                 High-Low
@@ -81,7 +80,7 @@ const MyInstallation = () => {
               <a
                 onClick={() => {
                   setSortOrder("asc");
-                  dropdownRef.current.blur();
+                  document.activeElement.blur();
                 }}
               >
                 Low-High
