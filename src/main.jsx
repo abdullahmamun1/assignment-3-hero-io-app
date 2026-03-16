@@ -16,6 +16,11 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: Layout,
+    HydrateFallback: () => (
+      <div className="flex items-center justify-center py-50">
+        <span className="loading loading-dots loading-xl"></span>
+      </div>
+    ),
     children: [
       {
         index: true,
@@ -48,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/installed",
         Component: MyInstallation,
+        loader: async () => {
+          const res = await axios.get("/appData.json");
+          return res.data;
+        },
       },
       {
         path: "*",

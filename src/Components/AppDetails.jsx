@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
@@ -11,10 +11,14 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import Swal from "sweetalert2";
+import { addInstalledApp, isInstalledApp } from "../localStorage";
 
 const AppDetails = () => {
   const singleApp = useLoaderData();
+
   const {
+    id,
     image,
     title,
     description,
@@ -25,10 +29,22 @@ const AppDetails = () => {
     ratingAvg,
     ratings,
   } = singleApp;
+  const [isInstalled, setIsInstalled] = useState(isInstalledApp(id));
+
+  const handleInstall = () => {
+    setIsInstalled(true);
+    Swal.fire({
+      title: "Awesome!",
+      text: "You succesfully installed the app!",
+      icon: "success",
+    });
+    addInstalledApp(id);
+  };
+
   const barData = ratings
     .toReversed()
     .map((r) => ({ name: r.name, count: r.count }));
-  console.log(singleApp);
+
   return (
     <div className="min-h-screen my-17.5 lg:my-35 px-5 xl:px-30">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-5">
@@ -47,8 +63,15 @@ const AppDetails = () => {
                 Developed by{" "}
                 <span className="text-neutral underline">{companyName}</span>
               </p>
-              <button className="btn btn-success btn-lg ">
-                Install Now ({size} MB)
+              <button
+                onClick={handleInstall}
+                className={
+                  isInstalled
+                    ? "btn btn-disabled btn-lg transition-all duration-300"
+                    : "btn btn-success btn-lg"
+                }
+              >
+                {isInstalled ? "Installed" : `Install Now (${size} MB)`}
               </button>
             </div>
             <div className="flex justify-center items-center">

@@ -18,11 +18,17 @@ const Banner = () => {
         an impact.
       </p>
       <div className="flex gap-4 items-center justify-center mt-8">
-        <Link className="btn btn-lg" to={""}>
+        <Link
+          className="btn btn-lg"
+          to={"https://play.google.com/store/games?hl=en"}
+        >
           <img className="w-5" src={playStore} alt="" />
           Google Play
         </Link>
-        <Link className="btn btn-lg" to={""}>
+        <Link
+          className="btn btn-lg"
+          to={"https://apps.apple.com/us/iphone/today"}
+        >
           <img className="w-5" src={appStore} alt="" /> App Store
         </Link>
       </div>
